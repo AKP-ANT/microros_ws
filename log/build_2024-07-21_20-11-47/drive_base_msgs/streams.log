@@ -1,0 +1,301 @@
+[0.016s] Invoking command in '/home/anthonykpinson/microros_ws/build/drive_base_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/anthonykpinson/microros_ws/src/uros/drive_base/drive_base_msgs -DCMAKE_INSTALL_PREFIX=/home/anthonykpinson/microros_ws/install/drive_base_msgs
+[0.133s] -- The C compiler identification is GNU 9.4.0
+[0.226s] -- The CXX compiler identification is GNU 9.4.0
+[0.229s] -- Check for working C compiler: /usr/bin/cc
+[0.275s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.275s] -- Detecting C compiler ABI info
+[0.320s] -- Detecting C compiler ABI info - done
+[0.329s] -- Detecting C compile features
+[0.329s] -- Detecting C compile features - done
+[0.331s] -- Check for working CXX compiler: /usr/bin/c++
+[0.380s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.382s] -- Detecting CXX compiler ABI info
+[0.432s] -- Detecting CXX compiler ABI info - done
+[0.440s] -- Detecting CXX compile features
+[0.440s] -- Detecting CXX compile features - done
+[0.442s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.458s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.458s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.591s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[0.611s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.615s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.687s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.707s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.765s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.796s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.819s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.932s] -- Found ament_cmake_cppcheck: 0.9.8 (/opt/ros/foxy/share/ament_cmake_cppcheck/cmake)
+[0.933s] -- Found ament_cmake_cpplint: 0.9.8 (/opt/ros/foxy/share/ament_cmake_cpplint/cmake)
+[0.935s] -- Found ament_cmake_uncrustify: 0.9.8 (/opt/ros/foxy/share/ament_cmake_uncrustify/cmake)
+[0.936s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[1.056s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.096s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.116s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[1.117s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[1.136s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[1.136s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.136s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.136s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[1.151s] -- Found PythonExtra: .so  
+[1.259s] -- Found ament_cmake_flake8: 0.9.8 (/opt/ros/foxy/share/ament_cmake_flake8/cmake)
+[1.260s] -- Found ament_cmake_pep257: 0.9.8 (/opt/ros/foxy/share/ament_cmake_pep257/cmake)
+[1.266s] -- Configuring done
+[1.297s] -- Generating done
+[1.299s] -- Build files have been written to: /home/anthonykpinson/microros_ws/build/drive_base_msgs
+[1.305s] Invoked command in '/home/anthonykpinson/microros_ws/build/drive_base_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/anthonykpinson/microros_ws/src/uros/drive_base/drive_base_msgs -DCMAKE_INSTALL_PREFIX=/home/anthonykpinson/microros_ws/install/drive_base_msgs
+[1.307s] Invoking command in '/home/anthonykpinson/microros_ws/build/drive_base_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/anthonykpinson/microros_ws/build/drive_base_msgs -- -j20 -l20
+[1.333s] [35m[1mScanning dependencies of target drive_base_msgs__cpp[0m
+[1.333s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.339s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.697s] [35m[1mScanning dependencies of target drive_base_msgs__rosidl_generator_c[0m
+[1.710s] [  5%] [32mBuilding C object CMakeFiles/drive_base_msgs__rosidl_generator_c.dir/rosidl_generator_c/drive_base_msgs/msg/detail/command_header__functions.c.o[0m
+[1.714s] [  7%] [32mBuilding C object CMakeFiles/drive_base_msgs__rosidl_generator_c.dir/rosidl_generator_c/drive_base_msgs/msg/detail/command_status__functions.c.o[0m
+[1.714s] [  9%] [32mBuilding C object CMakeFiles/drive_base_msgs__rosidl_generator_c.dir/rosidl_generator_c/drive_base_msgs/msg/detail/trv_command__functions.c.o[0m
+[1.714s] [ 10%] [32mBuilding C object CMakeFiles/drive_base_msgs__rosidl_generator_c.dir/rosidl_generator_c/drive_base_msgs/msg/detail/base_info__functions.c.o[0m
+[1.718s] [ 10%] Built target drive_base_msgs__cpp
+[1.725s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.726s] [ 14%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.726s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.756s] [ 18%] [32m[1mLinking C shared library libdrive_base_msgs__rosidl_generator_c.so[0m
+[1.784s] [ 18%] Built target drive_base_msgs__rosidl_generator_c
+[1.790s] [ 21%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.791s] [ 21%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.026s] [35m[1mScanning dependencies of target drive_base_msgs__rosidl_typesupport_cpp[0m
+[2.036s] [ 25%] [32mBuilding CXX object CMakeFiles/drive_base_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/drive_base_msgs/msg/command_status__type_support.cpp.o[0m
+[2.037s] [ 25%] [32mBuilding CXX object CMakeFiles/drive_base_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/drive_base_msgs/msg/trv_command__type_support.cpp.o[0m
+[2.038s] [ 27%] [32mBuilding CXX object CMakeFiles/drive_base_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/drive_base_msgs/msg/command_header__type_support.cpp.o[0m
+[2.040s] [ 29%] [32mBuilding CXX object CMakeFiles/drive_base_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/drive_base_msgs/msg/base_info__type_support.cpp.o[0m
+[2.041s] [35m[1mScanning dependencies of target drive_base_msgs__rosidl_typesupport_introspection_cpp[0m
+[2.051s] [ 30%] [32mBuilding CXX object CMakeFiles/drive_base_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/drive_base_msgs/msg/detail/command_header__type_support.cpp.o[0m
+[2.052s] [ 32%] [32mBuilding CXX object CMakeFiles/drive_base_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/drive_base_msgs/msg/detail/base_info__type_support.cpp.o[0m
+[2.054s] [ 36%] [32mBuilding CXX object CMakeFiles/drive_base_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/drive_base_msgs/msg/detail/command_status__type_support.cpp.o[0m
+[2.054s] [ 36%] [32mBuilding CXX object CMakeFiles/drive_base_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/drive_base_msgs/msg/detail/trv_command__type_support.cpp.o[0m
+[2.066s] [35m[1mScanning dependencies of target drive_base_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[2.084s] [ 41%] [32mBuilding CXX object CMakeFiles/drive_base_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/dds_fastrtps/base_info__type_support.cpp.o[0m
+[2.084s] [ 41%] [32mBuilding CXX object CMakeFiles/drive_base_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/dds_fastrtps/trv_command__type_support.cpp.o[0m
+[2.084s] [ 41%] [32mBuilding CXX object CMakeFiles/drive_base_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/dds_fastrtps/command_header__type_support.cpp.o[0m
+[2.085s] [ 43%] [32mBuilding CXX object CMakeFiles/drive_base_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/drive_base_msgs/msg/detail/dds_fastrtps/command_status__type_support.cpp.o[0m
+[2.100s] [35m[1mScanning dependencies of target drive_base_msgs__rosidl_typesupport_c[0m
+[2.110s] [ 45%] [32mBuilding CXX object CMakeFiles/drive_base_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/drive_base_msgs/msg/command_header__type_support.cpp.o[0m
+[2.111s] [ 49%] [32mBuilding CXX object CMakeFiles/drive_base_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/drive_base_msgs/msg/trv_command__type_support.cpp.o[0m
+[2.111s] [ 49%] [32mBuilding CXX object CMakeFiles/drive_base_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/drive_base_msgs/msg/command_status__type_support.cpp.o[0m
+[2.112s] [ 50%] [32mBuilding CXX object CMakeFiles/drive_base_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/drive_base_msgs/msg/base_info__type_support.cpp.o[0m
+[2.142s] [ 52%] [32m[1mLinking CXX shared library libdrive_base_msgs__rosidl_typesupport_c.so[0m
+[2.150s] [35m[1mScanning dependencies of target drive_base_msgs__rosidl_typesupport_introspection_c[0m
+[2.161s] [ 54%] [32mBuilding C object CMakeFiles/drive_base_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/drive_base_msgs/msg/detail/trv_command__type_support.c.o[0m
+[2.162s] [ 58%] [32mBuilding C object CMakeFiles/drive_base_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/drive_base_msgs/msg/detail/base_info__type_support.c.o[0m
+[2.162s] [ 60%] [32mBuilding C object CMakeFiles/drive_base_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/drive_base_msgs/msg/detail/command_header__type_support.c.o[0m
+[2.162s] [ 60%] [32mBuilding C object CMakeFiles/drive_base_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/drive_base_msgs/msg/detail/command_status__type_support.c.o[0m
+[2.174s] [ 60%] Built target drive_base_msgs__rosidl_typesupport_c
+[2.192s] [ 61%] [32m[1mLinking C shared library libdrive_base_msgs__rosidl_typesupport_introspection_c.so[0m
+[2.213s] [ 61%] Built target drive_base_msgs__rosidl_typesupport_introspection_c
+[2.352s] [ 63%] [32m[1mLinking CXX shared library libdrive_base_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[2.360s] [ 65%] [32m[1mLinking CXX shared library libdrive_base_msgs__rosidl_typesupport_cpp.so[0m
+[2.387s] [ 65%] Built target drive_base_msgs__rosidl_typesupport_cpp
+[2.394s] [ 65%] Built target drive_base_msgs__rosidl_typesupport_introspection_cpp
+[2.456s] [ 67%] [32m[1mLinking CXX shared library libdrive_base_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.514s] [ 67%] Built target drive_base_msgs__rosidl_typesupport_fastrtps_cpp
+[2.522s] [ 69%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.854s] [35m[1mScanning dependencies of target drive_base_msgs__rosidl_typesupport_fastrtps_c[0m
+[2.867s] [ 70%] [32mBuilding CXX object CMakeFiles/drive_base_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/command_header__type_support_c.cpp.o[0m
+[2.868s] [ 72%] [32mBuilding CXX object CMakeFiles/drive_base_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/trv_command__type_support_c.cpp.o[0m
+[2.868s] [ 74%] [32mBuilding CXX object CMakeFiles/drive_base_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/base_info__type_support_c.cpp.o[0m
+[2.868s] [ 76%] [32mBuilding CXX object CMakeFiles/drive_base_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/drive_base_msgs/msg/detail/command_status__type_support_c.cpp.o[0m
+[3.061s] [ 78%] [32m[1mLinking CXX shared library libdrive_base_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[3.116s] [ 78%] Built target drive_base_msgs__rosidl_typesupport_fastrtps_c
+[3.123s] [35m[1mScanning dependencies of target drive_base_msgs[0m
+[3.129s] [ 78%] Built target drive_base_msgs
+[3.135s] [35m[1mScanning dependencies of target drive_base_msgs__py[0m
+[3.142s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.839s] [ 80%] Built target drive_base_msgs__py
+[3.846s] [35m[1mScanning dependencies of target drive_base_msgs__python[0m
+[3.870s] [ 85%] [32mBuilding C object CMakeFiles/drive_base_msgs__python.dir/rosidl_generator_py/drive_base_msgs/msg/_command_header_s.c.o[0m
+[3.870s] [ 85%] [32mBuilding C object CMakeFiles/drive_base_msgs__python.dir/rosidl_generator_py/drive_base_msgs/msg/_command_status_s.c.o[0m
+[3.870s] [ 85%] [32mBuilding C object CMakeFiles/drive_base_msgs__python.dir/rosidl_generator_py/drive_base_msgs/msg/_base_info_s.c.o[0m
+[3.870s] [ 87%] [32mBuilding C object CMakeFiles/drive_base_msgs__python.dir/rosidl_generator_py/drive_base_msgs/msg/_trv_command_s.c.o[0m
+[3.927s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/drive_base_msgs/libdrive_base_msgs__python.so[0m
+[3.956s] [ 89%] Built target drive_base_msgs__python
+[3.963s] [35m[1mScanning dependencies of target drive_base_msgs__rosidl_typesupport_c__pyext[0m
+[3.963s] [35m[1mScanning dependencies of target drive_base_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[3.963s] [35m[1mScanning dependencies of target drive_base_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[3.973s] [ 90%] [32mBuilding C object CMakeFiles/drive_base_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/drive_base_msgs/_drive_base_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.973s] [ 92%] [32mBuilding C object CMakeFiles/drive_base_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/drive_base_msgs/_drive_base_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[3.977s] [ 94%] [32mBuilding C object CMakeFiles/drive_base_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/drive_base_msgs/_drive_base_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.025s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[4.026s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[4.029s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[4.048s] [100%] Built target drive_base_msgs__rosidl_typesupport_introspection_c__pyext
+[4.049s] [100%] Built target drive_base_msgs__rosidl_typesupport_c__pyext
+[4.070s] [100%] Built target drive_base_msgs__rosidl_typesupport_fastrtps_c__pyext
+[4.079s] Invoked command in '/home/anthonykpinson/microros_ws/build/drive_base_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/anthonykpinson/microros_ws/build/drive_base_msgs -- -j20 -l20
+[4.131s] Invoking command in '/home/anthonykpinson/microros_ws/build/drive_base_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/anthonykpinson/microros_ws/build/drive_base_msgs
+[4.136s] -- Install configuration: ""
+[4.136s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/share/ament_index/resource_index/rosidl_interfaces/drive_base_msgs
+[4.136s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs
+[4.136s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg
+[4.136s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/base_info.h
+[4.136s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/command_status.h
+[4.136s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/rosidl_generator_c__visibility_control.h
+[4.136s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail
+[4.136s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_header__struct.h
+[4.136s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/base_info__struct.h
+[4.136s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/trv_command__functions.c
+[4.136s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/trv_command__functions.h
+[4.136s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_header__functions.h
+[4.136s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_status__struct.h
+[4.136s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_status__functions.c
+[4.137s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/base_info__functions.c
+[4.137s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_header__functions.c
+[4.137s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_status__functions.h
+[4.137s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/base_info__type_support.h
+[4.137s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/trv_command__type_support.h
+[4.137s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_header__type_support.h
+[4.137s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/trv_command__struct.h
+[4.137s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_status__type_support.h
+[4.137s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/base_info__functions.h
+[4.137s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/trv_command.h
+[4.137s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/command_header.h
+[4.137s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/share/drive_base_msgs/environment/library_path.sh
+[4.137s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/share/drive_base_msgs/environment/library_path.dsv
+[4.137s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_generator_c.so
+[4.137s] -- Set runtime path of "/home/anthonykpinson/microros_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_generator_c.so" to ""
+[4.137s] -- Up-to-date: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs
+[4.137s] -- Up-to-date: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg
+[4.137s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.137s] -- Up-to-date: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail
+[4.137s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_fastrtps_c.h
+[4.137s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_fastrtps_c.h
+[4.137s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_fastrtps_c.h
+[4.137s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_fastrtps_c.h
+[4.137s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_fastrtps_c.so
+[4.138s] -- Set runtime path of "/home/anthonykpinson/microros_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[4.138s] -- Up-to-date: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs
+[4.138s] -- Up-to-date: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg
+[4.138s] -- Up-to-date: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail
+[4.138s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_fastrtps_cpp.hpp
+[4.138s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_fastrtps_cpp.hpp
+[4.138s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/dds_fastrtps
+[4.138s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_fastrtps_cpp.hpp
+[4.138s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_fastrtps_cpp.hpp
+[4.138s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.138s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_fastrtps_cpp.so
+[4.138s] -- Set runtime path of "/home/anthonykpinson/microros_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.138s] -- Up-to-date: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs
+[4.138s] -- Up-to-date: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg
+[4.138s] -- Up-to-date: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail
+[4.138s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_introspection_c.h
+[4.138s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_header__type_support.c
+[4.138s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_introspection_c.h
+[4.138s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_introspection_c.h
+[4.138s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/trv_command__type_support.c
+[4.138s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/base_info__type_support.c
+[4.138s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_introspection_c.h
+[4.138s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_status__type_support.c
+[4.139s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.139s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_introspection_c.so
+[4.139s] -- Set runtime path of "/home/anthonykpinson/microros_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_introspection_c.so" to ""
+[4.139s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_c.so
+[4.139s] -- Set runtime path of "/home/anthonykpinson/microros_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_c.so" to ""
+[4.139s] -- Up-to-date: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs
+[4.139s] -- Up-to-date: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg
+[4.139s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.139s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/command_header.hpp
+[4.139s] -- Up-to-date: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail
+[4.139s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_header__traits.hpp
+[4.139s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/base_info__struct.hpp
+[4.139s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_header__builder.hpp
+[4.139s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_header__struct.hpp
+[4.139s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/base_info__traits.hpp
+[4.139s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_header__type_support.hpp
+[4.139s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/base_info__builder.hpp
+[4.139s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_status__type_support.hpp
+[4.139s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/trv_command__struct.hpp
+[4.139s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_status__traits.hpp
+[4.139s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_status__struct.hpp
+[4.139s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/trv_command__builder.hpp
+[4.140s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/base_info__type_support.hpp
+[4.140s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_status__builder.hpp
+[4.140s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/trv_command__type_support.hpp
+[4.140s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/trv_command__traits.hpp
+[4.140s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/command_status.hpp
+[4.140s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/base_info.hpp
+[4.140s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/trv_command.hpp
+[4.140s] -- Up-to-date: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs
+[4.140s] -- Up-to-date: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg
+[4.140s] -- Up-to-date: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail
+[4.140s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_header__type_support.cpp
+[4.140s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_introspection_cpp.hpp
+[4.140s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_status__type_support.cpp
+[4.140s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/trv_command__type_support.cpp
+[4.140s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_introspection_cpp.hpp
+[4.140s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_introspection_cpp.hpp
+[4.140s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_introspection_cpp.hpp
+[4.140s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/include/drive_base_msgs/msg/detail/base_info__type_support.cpp
+[4.140s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_introspection_cpp.so
+[4.140s] -- Set runtime path of "/home/anthonykpinson/microros_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[4.140s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_cpp.so
+[4.140s] -- Set runtime path of "/home/anthonykpinson/microros_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_cpp.so" to ""
+[4.140s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/share/drive_base_msgs/environment/pythonpath.sh
+[4.140s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/share/drive_base_msgs/environment/pythonpath.dsv
+[4.141s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/lib/python3.8/site-packages/drive_base_msgs/__init__.py
+[4.162s] Compiling '/home/anthonykpinson/microros_ws/install/drive_base_msgs/lib/python3.8/site-packages/drive_base_msgs/__init__.py'...
+[4.165s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/lib/python3.8/site-packages/drive_base_msgs/msg
+[4.165s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/lib/python3.8/site-packages/drive_base_msgs/msg/_command_status_s.c
+[4.165s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/lib/python3.8/site-packages/drive_base_msgs/msg/_base_info_s.c
+[4.165s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/lib/python3.8/site-packages/drive_base_msgs/msg/_command_header.py
+[4.165s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/lib/python3.8/site-packages/drive_base_msgs/msg/_base_info.py
+[4.165s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/lib/python3.8/site-packages/drive_base_msgs/msg/_command_status.py
+[4.165s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/lib/python3.8/site-packages/drive_base_msgs/msg/__init__.py
+[4.165s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/lib/python3.8/site-packages/drive_base_msgs/msg/_trv_command_s.c
+[4.165s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/lib/python3.8/site-packages/drive_base_msgs/msg/_trv_command.py
+[4.165s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/lib/python3.8/site-packages/drive_base_msgs/msg/_command_header_s.c
+[4.165s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/lib/python3.8/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[4.165s] -- Set runtime path of "/home/anthonykpinson/microros_ws/install/drive_base_msgs/lib/python3.8/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[4.166s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/lib/python3.8/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[4.166s] -- Set runtime path of "/home/anthonykpinson/microros_ws/install/drive_base_msgs/lib/python3.8/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[4.166s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/lib/python3.8/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[4.166s] -- Set runtime path of "/home/anthonykpinson/microros_ws/install/drive_base_msgs/lib/python3.8/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[4.166s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/lib/libdrive_base_msgs__python.so
+[4.166s] -- Set runtime path of "/home/anthonykpinson/microros_ws/install/drive_base_msgs/lib/libdrive_base_msgs__python.so" to ""
+[4.166s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandHeader.idl
+[4.167s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/share/drive_base_msgs/msg/BaseInfo.idl
+[4.167s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandStatus.idl
+[4.167s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/share/drive_base_msgs/msg/TRVCommand.idl
+[4.167s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandHeader.msg
+[4.167s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/share/drive_base_msgs/msg/BaseInfo.msg
+[4.167s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandStatus.msg
+[4.167s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/share/drive_base_msgs/msg/TRVCommand.msg
+[4.167s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/share/ament_index/resource_index/package_run_dependencies/drive_base_msgs
+[4.167s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/share/ament_index/resource_index/parent_prefix_path/drive_base_msgs
+[4.167s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/share/drive_base_msgs/environment/ament_prefix_path.sh
+[4.167s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/share/drive_base_msgs/environment/ament_prefix_path.dsv
+[4.167s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/share/drive_base_msgs/environment/path.sh
+[4.167s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/share/drive_base_msgs/environment/path.dsv
+[4.167s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/share/drive_base_msgs/local_setup.bash
+[4.167s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/share/drive_base_msgs/local_setup.sh
+[4.167s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/share/drive_base_msgs/local_setup.zsh
+[4.167s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/share/drive_base_msgs/local_setup.dsv
+[4.168s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/share/drive_base_msgs/package.dsv
+[4.168s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/share/ament_index/resource_index/packages/drive_base_msgs
+[4.168s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_generator_cExport.cmake
+[4.168s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_generator_cExport-noconfig.cmake
+[4.168s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_introspection_cExport.cmake
+[4.168s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.168s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_cExport.cmake
+[4.168s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[4.168s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_generator_cppExport.cmake
+[4.168s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[4.168s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.168s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_cppExport.cmake
+[4.168s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[4.168s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/rosidl_cmake-extras.cmake
+[4.168s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.169s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[4.169s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[4.169s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.169s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.169s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.169s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgsConfig.cmake
+[4.169s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgsConfig-version.cmake
+[4.169s] -- Installing: /home/anthonykpinson/microros_ws/install/drive_base_msgs/share/drive_base_msgs/package.xml
+[4.170s] Invoked command in '/home/anthonykpinson/microros_ws/build/drive_base_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/anthonykpinson/microros_ws/build/drive_base_msgs

@@ -1,0 +1,2 @@
+Invoking command in '/home/microros_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/microros_ws/build/micro_ros_setup -- -j20 -l20
+Invoked command in '/home/microros_ws/build/micro_ros_setup' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/microros_ws/build/micro_ros_setup -- -j20 -l20
